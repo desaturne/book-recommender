@@ -9,7 +9,7 @@ A simple and interactive web application that recommends books based on populari
 
 ## ✨ Features
 
-- 🔥 Top 50 Popular Books (based on ratings and votes)
+- 🔥 Top Popular Books (based on ratings and votes)
 - 📖 Book Recommendation based on similar preferences
 - 📷 Displays book cover images, ratings (rounded to 2 decimal places), and authors
 - ⚡ Clean and responsive UI using Bootstrap 5
@@ -47,27 +47,13 @@ It's recommended to use a virtual environment:
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     pip install -r requirements.txt
-    
+
 
 ## 💻 Run the Application
 
     ```bash
     python app.py
-
-## 🗂️ Project Structure
-
-book-recommender/
-│
-├── static/              # Static assets (CSS, JS, Images)
-├── templates/           # HTML templates
-│   ├── index.html
-│   └── recommend.html
-├── popular.pkl          # Pickled data for popularity-based recommendation
-├── similarity.pkl       # Cosine similarity matrix
-├── final_df.pkl         # Dataframe used in recommendation
-├── app.py               # Flask application
-├── requirements.txt     # Python dependencies
-└── README.md            # This file
+    
 
 ## 🙏 Credits
 
